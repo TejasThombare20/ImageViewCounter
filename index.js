@@ -11,6 +11,7 @@ getconnection();
 
 app.use(cors({
    origin : 'https://image-view-counter-frontend.vercel.app',
+  // origin : "http://localhost:3000",
    methods : "GET , POST , PUT , DELETE",
    credentials : true
 }))
