@@ -5,12 +5,12 @@ const app = express();
 const dotenv = require("dotenv");
 dotenv.config();
 
-const port = 8000;
+const port = 5000;
 
 getconnection();
 
 app.use(cors({
-   origin : 'http://localhost:3000',
+   origin : 'https://image-view-counter-frontend.vercel.app',
    methods : "GET , POST , PUT , DELETE",
    credentials : true
 }))
