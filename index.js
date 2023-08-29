@@ -10,7 +10,7 @@ const port = 5000;
 getconnection();
 
 app.use(cors({
-   origin : 'https://image-view-counter-frontend.vercel.app/',
+   origin : 'https://image-view-counter-frontend.vercel.app',
   // origin : "http://localhost:3000",
    methods : "GET , POST , PUT , DELETE",
    credentials : true
